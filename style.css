@@ -187,7 +187,7 @@ border:2px solid #e6eff0;
   background-color:#e5eeeb;
   color:#4e5469;
   font-family: "Montserrat";
-  padding: 7% 15%;
+  padding: 3% 15%;
   text-align:left;
 }
 #title-portion2 p{
@@ -215,6 +215,7 @@ border:2px solid #e6eff0;
   padding: 7% 15%;
   text-align: center;
   background-color:  #184d47;
+  background: url(images/nature1.jpeg);
   color: #fff;
 }
 
@@ -273,19 +274,25 @@ border:2px solid #e6eff0;
   #pricing {
     padding: 0 8% 0 ;
     background-color: #fffbfd;
+    background: url(./images/sunset-pose.jpg);
   }
 
+  #pricing .card{
+    background: transparent;
+  }
+  
 .pricing-p{
   color: #206a5d;
  
 }
   
 .above{
-  color: #325288;
+  color: #69647a;
 }
-  .pricing-column {
+
+.pricing-column {
     padding: 3% 2%;
-  }
+}
 
 #heading{
   font-size: 2.5rem;
@@ -312,49 +319,37 @@ background-color: #4eadaf;
 }
 
 /* footer portion */
+.footer{
+  padding: 40px 0;
+  background: black;
+  color: white;
+  text-align: center;
+}
 
-  #footer {
-    padding: 7% 15%;
-  
-    background-color:#244ab0 ;
-  }
-  
-  .social-icon{
-    width: 25%;
-    padding-left: 2%;
-    padding-top: 10%;
-    
-    }
-    
-    .uttu{
-      padding-left: 10%;
-    }
-  #foot{
-    font-size: 25px;
-    color:rgb(8, 8, 8);
-  }
-  
-  .footer-image{
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
+.footer p{
+  font-size: 40px;
+}
+.footer i{
+  font-size: 34px;
+  margin: 5px 8px;
+}
 
- 
+.fa-facebook{
+  color: #4867aa;
+}
+
+.fa-instagram{
+  color: #d6286c;;
+}
+
+.fa-twitter{
+  color: rgb(29, 161, 242);
+}
+
+.fa-youtube{
+  color: red;
+}
 .b{
   align-content: center;
   color: blue;
-}
-
-#carouselExampleControls{
-  width: 50vw;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-
-#carouselExampleControls img{
-  width: 100%;
-  height: fit-content;
 }
