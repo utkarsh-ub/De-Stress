@@ -17,3 +17,8 @@ function news()
 {
     window.open("news/index.html");
 }
+
+function don()
+{
+    window.open("https://go.echoar.xyz/e29o"); 
+}
