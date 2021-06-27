@@ -348,3 +348,13 @@ background-color: #4eadaf;
   color: blue;
 }
 
+#carouselExampleControls{
+  width: 50vw;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+#carouselExampleControls img{
+  width: 100%;
+  height: fit-content;
+}
